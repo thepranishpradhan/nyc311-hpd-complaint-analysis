@@ -36,15 +36,13 @@ Five queries, each building on the concepts of the last:
 - **Q4** — a sensitivity check re-running Q1 with the 37 duplicate-flagged rows excluded, confirming the category ranking doesn't change materially
 - **Q5** — the 5 longest-duration tickets, flagged for exploratory review without causal claims
 
-`docs/NYC311_SQL_Cheat_Sheet_final.docx` and `docs/NYC311_Full_Coding_Guide_v2.docx` walk through the reasoning behind each query and code block in more depth.
-
 ## Business Requirements Document (`docs/NYC311_BRD_Restructured_v3_final.docx`)
 
 Defines the business context, stakeholder analysis, scope, seven business requirements (BR-001 through BR-007), assumptions, constraints, and success metrics underlying every phase of this project.
 
 ## Phase 4 — Current-state process map
 
-A swimlane diagram of the ticket lifecycle across NYC311 intake, HPD inspection, and landlord/repair lanes, distinguishing timestamped process stages from stages inferred but not directly recorded in the data (per BR-004). *Not yet added to this repo — add the exported diagram image here once finalized.*
+A swimlane diagram of the ticket lifecycle across NYC311 intake, HPD inspection, and landlord/repair lanes, distinguishing timestamped process stages from stages inferred but not directly recorded in the data (per BR-004). 
 
 ## Phase 5 — Recommendation (`docs/NYC311_Phase5_Recommendation_Memo.docx`)
 
@@ -52,7 +50,7 @@ Two categories — GENERAL and PAINT/PLASTER — account for 933 of the sample's
 
 ## Phase 6 — Power BI dashboard (`dashboard/`)
 
-`NYC311_Dashboard_Data.xlsx` contains the fact table plus two pre-computed reference tabs for cross-checking dashboard numbers. `NYC311_PowerBI_Build_Guide_v3.docx` walks through loading the data and building every visual; `NYC311_PowerBI_DAX_Guide.docx` explains each DAX measure function by function. The dashboard covers BR-001 through BR-003 and BR-007 across two report pages, with complaint-type and resolution-time slicers (BR-006) and a sensitivity toggle to exclude duplicate-flagged rows interactively. *The finished `.pbix` file isn't yet in this repo — add it here once built, or link to a published Power BI Service report if you publish one.*
+`NYC311_Dashboard_Data.xlsx` contains the fact table plus two pre-computed reference tabs for cross-checking dashboard numbers. `NYC311_PowerBI_Build_Guide_v3.docx` walks through loading the data and building every visual; `NYC311_PowerBI_DAX_Guide.docx` explains each DAX measure function by function. The dashboard covers BR-001 through BR-003 and BR-007 across two report pages, with complaint-type and resolution-time slicers (BR-006) and a sensitivity toggle to exclude duplicate-flagged rows interactively.
 
 ## Key findings
 
