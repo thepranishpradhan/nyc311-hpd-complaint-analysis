@@ -26,7 +26,7 @@ Loads the raw sample, applies the BRD's "valid closed record" rule, flags exact-
 
 Pushes the cleaned CSV into a local Postgres table (`hpd_complaints`) so the SQL analysis has something to query. Credentials are read from environment variables, not hardcoded - see the comment at the top of the script for the exact variables to set before running it.
 
-## Phase 3 - SQL analysis (`sql/nyc311_analysis.sql`)
+## Phase 3 - SQL analysis (`sql/nyc311_data.sql`)
 
 Five queries, each building on the concepts of the last:
 
@@ -36,19 +36,19 @@ Five queries, each building on the concepts of the last:
 - **Q4** - a sensitivity check re-running Q1 with the 37 duplicate-flagged rows excluded, confirming the category ranking doesn't change materially
 - **Q5** - the 5 longest-duration tickets, flagged for exploratory review without causal claims
 
-## Business Requirements Document (`docs/NYC311_BRD_Restructured_v3_final.docx`)
+## Business Requirements Document (`docs/NYC311_Business Requirement Document.docx`)
 
 Defines the business context, stakeholder analysis, scope, seven business requirements (BR-001 through BR-007), assumptions, constraints, and success metrics underlying every phase of this project.
 
-## Phase 4 - Current-state process map
+## Phase 4 - Current-state process map('processmap/nyc311_BPMN_current-state process planner.png)
 
 A swimlane diagram of the ticket lifecycle across NYC311 intake, HPD inspection, and landlord/repair lanes, distinguishing timestamped process stages from stages inferred but not directly recorded in the data (per BR-004). 
 
-## Phase 5 - Recommendation (`docs/NYC311_Phase5_Recommendation_Memo.docx`)
+## Phase 5 - Recommendation (`docs/NYC311_Recommendation_Memo.docx`)
 
 Two categories - GENERAL and PAINT/PLASTER - account for 933 of the sample's 2,226.74 total excess days, the largest combined burden of any category pairing. The memo proposes a limited one-quarter prioritization pilot for these two categories, paired with a staged rollout of stage-level timestamp tracking, with conservative/base/optimistic scenarios for excess-day reduction and explicit go/no-go success thresholds.
 
-## Phase 6 - Power BI dashboard (`dashboard/`)
+## Phase 6 - Power BI dashboard (`dashboard/nyc311_powerbi_dashboard.pbix`)
 
 `NYC311_Dashboard_Data.xlsx` contains the fact table plus two pre-computed reference tabs for cross-checking dashboard numbers. `NYC311_PowerBI_Build_Guide_v3.docx` walks through loading the data and building every visual; `NYC311_PowerBI_DAX_Guide.docx` explains each DAX measure function by function. The dashboard covers BR-001 through BR-003 and BR-007 across two report pages, with complaint-type and resolution-time slicers (BR-006) and a sensitivity toggle to exclude duplicate-flagged rows interactively.
 
