@@ -41,7 +41,7 @@ Five queries, each building on the concepts of the last:
 
 Defines the business context, stakeholder analysis, scope, seven business requirements (BR-001 through BR-007), assumptions, constraints, and success metrics underlying every phase of this project.
 
-## Phase 4 - Current-state process map('process map/nyc311_BPMN_current-state process planner.png)
+## Phase 4 - Current-state process map(`process map/nyc311_BPMN_current-state process planner.png`)
 
 <img width="6000" height="3375" alt="nyc311_BPMN_current-state process planner" src="https://github.com/user-attachments/assets/c07c9d59-0084-4391-809f-865b83213504" />
 
