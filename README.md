@@ -16,6 +16,7 @@ notebooks/      Phase 1 cleaning notebook + Phase 2 Postgres loading script
 sql/            Phase 3 business-question queries
 docs/           BRD, SQL reference guide, and the Phase 5 recommendation memo
 dashboard/      Power BI data file, build guide, and DAX reference guide
+process map/    BPMN swimlane diagram (Phase 4)
 ```
 
 ## Phase 1 - Data cleaning (`notebooks/nyc311_data_cleaning.ipynb`)
@@ -40,7 +41,7 @@ Five queries, each building on the concepts of the last:
 
 Defines the business context, stakeholder analysis, scope, seven business requirements (BR-001 through BR-007), assumptions, constraints, and success metrics underlying every phase of this project.
 
-## Phase 4 - Current-state process map('processmap/nyc311_BPMN_current-state process planner.png)
+## Phase 4 - Current-state process map('process map/nyc311_BPMN_current-state process planner.png)
 
 <img width="6000" height="3375" alt="nyc311_BPMN_current-state process planner" src="https://github.com/user-attachments/assets/c07c9d59-0084-4391-809f-865b83213504" />
 
