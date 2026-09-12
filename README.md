@@ -52,7 +52,10 @@ Two categories - GENERAL and PAINT/PLASTER - account for 933 of the sample's 2,2
 
 ## Phase 6 - Power BI dashboard (`dashboard/nyc311_powerbi_dashboard.pbix`)
 
-`NYC311_Dashboard_Data.xlsx` contains the fact table plus two pre-computed reference tabs for cross-checking dashboard numbers. `NYC311_PowerBI_Build_Guide_v3.docx` walks through loading the data and building every visual; `NYC311_PowerBI_DAX_Guide.docx` explains each DAX measure function by function. The dashboard covers BR-001 through BR-003 and BR-007 across two report pages, with complaint-type and resolution-time slicers (BR-006) and a sensitivity toggle to exclude duplicate-flagged rows interactively.
+<img width="1180" height="660" alt="image" src="https://github.com/user-attachments/assets/346ca9f9-2c15-49d5-bb3e-91fbcc17e8b6" />
+<img width="1182" height="661" alt="image" src="https://github.com/user-attachments/assets/a92995dd-e1ba-4dd0-b79b-d1af7d694825" />
+
+The dashboard covers BR-001 through BR-003 and BR-007 across two report pages, with complaint-type and resolution-time slicers (BR-006) and a sensitivity toggle to exclude duplicate-flagged rows interactively.
 
 ## Key findings
 
