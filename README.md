@@ -14,7 +14,7 @@ An independent business-analyst portfolio project examining resolution times for
 data/           raw and cleaned CSV files
 notebooks/      Phase 1 cleaning notebook + Phase 2 Postgres loading script
 sql/            Phase 3 business-question queries
-docs/           BRD, SQL reference guide, and the Phase 5 recommendation memo
+docs/           BRD and the Phase 5 recommendation memo
 dashboard/      Power BI data file, build guide, and DAX reference guide
 process map/    BPMN swimlane diagram (Phase 4)
 ```
