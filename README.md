@@ -42,6 +42,8 @@ Defines the business context, stakeholder analysis, scope, seven business requir
 
 ## Phase 4 - Current-state process map('processmap/nyc311_BPMN_current-state process planner.png)
 
+<img width="6000" height="3375" alt="nyc311_BPMN_current-state process planner" src="https://github.com/user-attachments/assets/c07c9d59-0084-4391-809f-865b83213504" />
+
 A swimlane diagram of the ticket lifecycle across NYC311 intake, HPD inspection, and landlord/repair lanes, distinguishing timestamped process stages from stages inferred but not directly recorded in the data (per BR-004). 
 
 ## Phase 5 - Recommendation (`docs/NYC311_Recommendation_Memo.docx`)
