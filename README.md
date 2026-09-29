@@ -4,6 +4,18 @@ An independent business-analyst portfolio project examining resolution times for
 
 **Portfolio disclosure:** this project uses publicly available NYC Open Data and was not commissioned, sponsored, or reviewed by NYC HPD or any other organization. Stakeholder roles, decision rights, and recommendations throughout are illustrative.
 
+## Explore the deliverables
+
+| Review focus | Evidence |
+| --- | --- |
+| Business context and recommendations | [Requirements document and recommendation memo](docs/) |
+| Analytical method | [Cleaning notebook and database loader](notebooks/) · [SQL queries](sql/) |
+| Process analysis | [BPMN process map](process%20map/) |
+| Reporting | [Power BI dashboard and supporting guides](dashboard/) |
+| Data | [Raw and cleaned samples](data/) |
+
+**Suggested review order:** read the sample boundaries and findings, review the requirements and recommendation, then inspect the SQL, process map, and dashboard. The 30-day threshold is an analytical benchmark for this project, not a claimed official HPD service standard.
+
 ## The sample
 
 405 closed HPD complaint tickets, created within narrow, same-hour extraction windows across April 1–3, 2024 (135 tickets per day, all created between 10:00–10:59 AM). This is a bounded sample chosen to demonstrate the analytical method, not a representative full-day or full-year view of HPD complaint volume - that constraint is documented explicitly in the BRD and carried through every downstream document.
@@ -65,3 +77,10 @@ Resolution times range from same-day closure to roughly 150 days, with a long-ta
 ## Limitations
 
 This is a bounded, narrow-window sample, not a representative view of HPD's full complaint volume. No staffing, cost, or internal process-stage data is available, so recommendations are directional and scenario-based rather than causal. All of this is documented in full in the BRD's Constraints section.
+
+
+## Author
+
+**Pranish Pradhan** · Business Operations & Automotive Sales · MBA, Business Analytics
+
+[GitHub profile](https://github.com/thepranishpradhan) · [LinkedIn](https://www.linkedin.com/in/mrpranishpradhan/) · [Portfolio](https://thepranishpradhan.github.io/pranish_portfolio/) · [Email](mailto:pranishprof7@gmail.com)
